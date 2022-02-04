@@ -17,3 +17,27 @@ MonoBehaviour:
   - fusionPartner: {fileID: 11400000, guid: 8f87b15a8b53a844cb9cabcbc56ceb16, type: 2}
     result: {fileID: 11400000, guid: 776cefee2590bdc42ab63e410b45545c, type: 2}
     effects: {fileID: 0}
+  - fusionPartner: {fileID: 11400000, guid: 8bf511330e446fc47b540580746a2654, type: 2}
+    result: {fileID: 11400000, guid: 5714b20146ff7fa4f8439a1528f24c15, type: 2}
+    effects: {fileID: 0}
+  - fusionPartner: {fileID: 11400000, guid: bdcc8cad04662534e8b998386310d3e2, type: 2}
+    result: {fileID: 11400000, guid: 8031d9705d3c9534c92e5135d5eef19b, type: 2}
+    effects: {fileID: 0}
+  - fusionPartner: {fileID: 11400000, guid: c5c4d0ac34e82c1429343bff37489377, type: 2}
+    result: {fileID: 11400000, guid: 8bf511330e446fc47b540580746a2654, type: 2}
+    effects: {fileID: 0}
+  - fusionPartner: {fileID: 11400000, guid: 45885fa8a680da44a8246281cc0e301f, type: 2}
+    result: {fileID: 11400000, guid: 93484d4b87cf24d4fa3804e8e8649d04, type: 2}
+    effects: {fileID: 0}
+  - fusionPartner: {fileID: 11400000, guid: 32e28cba1bb42c347a3a2da1052bd4e0, type: 2}
+    result: {fileID: 11400000, guid: bdcc8cad04662534e8b998386310d3e2, type: 2}
+    effects: {fileID: 0}
+  - fusionPartner: {fileID: 11400000, guid: 2a22ecd72d982fb4393263b870abd722, type: 2}
+    result: {fileID: 11400000, guid: 8bf511330e446fc47b540580746a2654, type: 2}
+    effects: {fileID: 0}
+  - fusionPartner: {fileID: 11400000, guid: fb97dee669c9b25428c44268a74f7b1c, type: 2}
+    result: {fileID: 11400000, guid: bdcc8cad04662534e8b998386310d3e2, type: 2}
+    effects: {fileID: 0}
+  - fusionPartner: {fileID: 11400000, guid: 71e6504366d366047865f5d69aec3cfa, type: 2}
+    result: {fileID: 11400000, guid: 5714b20146ff7fa4f8439a1528f24c15, type: 2}
+    effects: {fileID: 0}
