@@ -1,0 +1,4 @@
+#Fri Feb 04 15:08:11 CAT 2022
+base.0=C\:\\Users\\Dextrus\\Desktop\\LittleLandsRepo\\LittleLands\\Little Lands\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

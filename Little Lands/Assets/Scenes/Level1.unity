@@ -361,6 +361,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b718e5a8ecc46849b93c11a1b9a2cd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blockPositionPadding: 1
+  gridPositionTransformPrefab: {fileID: 4681664228352440733, guid: f22e7622ea17a7540b41a07b07b79733, type: 3}
 --- !u!4 &2035272044
 Transform:
   m_ObjectHideFlags: 0
@@ -369,7 +371,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2035272042}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.034524, y: -3.2490315, z: 3.414979}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -385,6 +387,14 @@ PrefabInstance:
     - target: {fileID: 4342228257914391249, guid: cc593c3081b1b50468e229666a4c2742, type: 3}
       propertyPath: m_Name
       value: DesertBiomeBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462516099719380371, guid: cc593c3081b1b50468e229666a4c2742, type: 3}
+      propertyPath: myGridPosX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462516099719380371, guid: cc593c3081b1b50468e229666a4c2742, type: 3}
+      propertyPath: myGridPosY
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7476427383757064951, guid: cc593c3081b1b50468e229666a4c2742, type: 3}
       propertyPath: m_RootOrder
@@ -490,6 +500,14 @@ PrefabInstance:
     - target: {fileID: 5038555451022461418, guid: cab31de3d51d36f44b1f77cc2a29b635, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7630172095598214798, guid: cab31de3d51d36f44b1f77cc2a29b635, type: 3}
+      propertyPath: myGridPosX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7630172095598214798, guid: cab31de3d51d36f44b1f77cc2a29b635, type: 3}
+      propertyPath: myGridPosY
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab31de3d51d36f44b1f77cc2a29b635, type: 3}
