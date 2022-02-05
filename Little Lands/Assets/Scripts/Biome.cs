@@ -6,10 +6,10 @@ using UnityEngine;
 public class Biome : ScriptableObject
 {
     [SerializeField]
-    GameObject biomeBody;
+    public GameObject biomeBody;
     
     [System.Serializable]
-    struct Fusion
+    public struct Fusion
     {
         public Biome fusionPartner;
         public Biome result;
@@ -21,5 +21,5 @@ public class Biome : ScriptableObject
     }
 
     [SerializeField]
-    Fusion[] fusions;
+    public Fusion[] fusions;
 }

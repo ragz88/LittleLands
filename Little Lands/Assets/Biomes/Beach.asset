@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b836592dd58974745868b89baeef3210, type: 3}
   m_Name: Beach
   m_EditorClassIdentifier: 
-  biomeBody: {fileID: 0}
+  biomeBody: {fileID: 2193149610417719756, guid: 63078e2187f60114abc1494cbcb06883, type: 3}
   fusions:
   - fusionPartner: {fileID: 11400000, guid: 93484d4b87cf24d4fa3804e8e8649d04, type: 2}
     result: {fileID: 11400000, guid: 8d7b992fa5ced9d4f90d4aabd3e09b5f, type: 2}

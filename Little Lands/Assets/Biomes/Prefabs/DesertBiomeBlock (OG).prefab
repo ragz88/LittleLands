@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2677567130419550014}
   - component: {fileID: 3592170515207206221}
   - component: {fileID: 5462516099719380371}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DesertBiomeBlock (OG)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,6 +112,7 @@ MonoBehaviour:
   onSelectScaleIncrease: 1.14
   onSelectScaleSpeed: 6
   onReleaseMoveSpeed: 0.4
+  onLegalMoveSpeed: 5.5
   previewMoveSpeed: 4
   moveDistanceThreshold: 0.15
   movePreviewDistance: 0.3

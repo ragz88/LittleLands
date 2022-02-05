@@ -16,6 +16,9 @@ public class BiomeBlock : MonoBehaviour
     protected float onReleaseMoveSpeed = 2f;
 
     [SerializeField]
+    protected float onLegalMoveSpeed = 4f;
+
+    [SerializeField]
     protected float previewMoveSpeed = 2f;
 
     /// <summary>
@@ -32,11 +35,15 @@ public class BiomeBlock : MonoBehaviour
 
     // Defines the position of this biome in the 3x3 grid
     [SerializeField]
-    int myGridPosX = -1;
+    public int myGridPosX = -1;
     [SerializeField]
-    int myGridPosY = -1;
+    public int myGridPosY = -1;
 
-    
+    // The grid positions of the biome block the player instructs us to fuse with. -1 when move illegal.
+    int moveGridPosX = -1;
+    int moveGridPosY = -1;
+
+
     Vector3 initialScale;
     bool blockSelected = false;
 
@@ -50,7 +57,7 @@ public class BiomeBlock : MonoBehaviour
     /// <summary>
     /// Set to true when the player has moved the block an adequate amount in a legal direction - triggers the final move and fuse moment
     /// </summary>
-    bool midMove = false;
+    bool midLegalMove = false;
     
     // Start is called before the first frame update
     void Start()
@@ -77,10 +84,10 @@ public class BiomeBlock : MonoBehaviour
                 Debug.LogError("BiomeBlock " + gameObject.name + " not found in grid");
             }
         }
-        else
+        /*else
         {
             GridController.gridInstance.gridPositions[myGridPosX, myGridPosY].biomeBlock = this;
-        }
+        }*/
     }
 
     // Update is called once per frame
@@ -94,6 +101,9 @@ public class BiomeBlock : MonoBehaviour
             }
 
             Vector3 currentMousePos = Input.mousePosition;
+
+            moveGridPosX = -1;
+            moveGridPosY = -1;
 
             // Check if the mouse has moved far enough to warrant the movement of the block
             if ((initialMousePos - currentMousePos).sqrMagnitude  >  movementSensitivity)
@@ -109,26 +119,37 @@ public class BiomeBlock : MonoBehaviour
                     movementAngle = 360 - movementAngle;
                 }
 
-                bool legalMove = true;
+                /*print(movementAngle);
+                print("MyX - " + myGridPosX);
+                print("MyY - " + myGridPosY);*/
+
+                midLegalMove = true;
 
                 // Here we discern which direction is the most appropriate to move the block in based on this angle
                 if (movementAngle >= 0 && movementAngle < 90)
                 {
                     // Positive z Movement
 
-                    transform.position = Vector3.Lerp(transform.position, Vector3.forward * movePreviewDistance, previewMoveSpeed * Time.deltaTime);
+                    transform.position = Vector3.Lerp(transform.position, 
+                        GridController.gridInstance.gridPositions[myGridPosX, myGridPosY].trans.position + (Vector3.forward * movePreviewDistance), 
+                        previewMoveSpeed * Time.deltaTime);
 
                     // Check if move is even possible. If at top of grid, we cannot move higher.
-                    if (myGridPosY == 0)
+                    if (myGridPosY == 2)
                     {
-                        legalMove = false;
+                        midLegalMove = false;
                     }
                     else
                     {
                         // Check if there is a block present to fuse with
-                        if (GridController.gridInstance.gridPositions[myGridPosX, myGridPosY - 1].biomeBlock == null)
+                        if (GridController.gridInstance.gridPositions[myGridPosX, myGridPosY + 1].biomeBlock == null)
                         {
-                            legalMove = false;
+                            midLegalMove = false;
+                        }
+                        else
+                        {
+                            moveGridPosX = myGridPosX;
+                            moveGridPosY = myGridPosY + 1;
                         }
                     }
                 }
@@ -136,19 +157,26 @@ public class BiomeBlock : MonoBehaviour
                 {
                     // Negative x Movement
                     
-                    transform.position = Vector3.Lerp(transform.position, -Vector3.right * movePreviewDistance, previewMoveSpeed * Time.deltaTime);
+                    transform.position = Vector3.Lerp(transform.position, 
+                        GridController.gridInstance.gridPositions[myGridPosX, myGridPosY].trans.position + (-Vector3.right * movePreviewDistance), 
+                        previewMoveSpeed * Time.deltaTime);
 
                     // Check if move is even possible. If at top of grid, we cannot move higher.
                     if (myGridPosX == 0)
                     {
-                        legalMove = false;
+                        midLegalMove = false;
                     }
                     else
                     {
                         // Check if there is a block present to fuse with
                         if (GridController.gridInstance.gridPositions[myGridPosX - 1, myGridPosY].biomeBlock == null)
                         {
-                            legalMove = false;
+                            midLegalMove = false;
+                        }
+                        else
+                        {
+                            moveGridPosX = myGridPosX - 1;
+                            moveGridPosY = myGridPosY;
                         }
                     }
                 }
@@ -156,19 +184,26 @@ public class BiomeBlock : MonoBehaviour
                 {
                     // Negative z Movement
 
-                    transform.position = Vector3.Lerp(transform.position, -Vector3.forward * movePreviewDistance, previewMoveSpeed * Time.deltaTime);
+                    transform.position = Vector3.Lerp(transform.position, 
+                        GridController.gridInstance.gridPositions[myGridPosX, myGridPosY].trans.position + (-Vector3.forward * movePreviewDistance), 
+                        previewMoveSpeed * Time.deltaTime);
 
                     // Check if move is even possible. If at top of grid, we cannot move higher.
-                    if (myGridPosY == 2)
+                    if (myGridPosY == 0)
                     {
-                        legalMove = false;
+                        midLegalMove = false;
                     }
                     else
                     {
                         // Check if there is a block present to fuse with
-                        if (GridController.gridInstance.gridPositions[myGridPosX, myGridPosY + 1].biomeBlock == null)
+                        if (GridController.gridInstance.gridPositions[myGridPosX, myGridPosY - 1].biomeBlock == null)
                         {
-                            legalMove = false;
+                            midLegalMove = false;
+                        }
+                        else
+                        {
+                            moveGridPosX = myGridPosX;
+                            moveGridPosY = myGridPosY - 1;
                         }
                     }
                 }
@@ -176,27 +211,33 @@ public class BiomeBlock : MonoBehaviour
                 {
                     // Positive x Movement
 
-                    transform.position = Vector3.Lerp(transform.position, Vector3.right * movePreviewDistance, previewMoveSpeed * Time.deltaTime);
+                    transform.position = Vector3.Lerp(transform.position, 
+                        GridController.gridInstance.gridPositions[myGridPosX, myGridPosY].trans.position + (Vector3.right * movePreviewDistance), 
+                        previewMoveSpeed * Time.deltaTime);
 
                     // Check if move is even possible. If at top of grid, we cannot move higher.
                     if (myGridPosX == 2)
                     {
-                        legalMove = false;
+                        midLegalMove = false;
                     }
                     else
                     {
                         // Check if there is a block present to fuse with
-                        if (GridController.gridInstance.gridPositions[myGridPosX + 2, myGridPosY].biomeBlock == null)
+                        if (GridController.gridInstance.gridPositions[myGridPosX + 1, myGridPosY].biomeBlock == null)
                         {
-                            legalMove = false;
+                            midLegalMove = false;
+                        }
+                        else
+                        {
+                            moveGridPosX = myGridPosX + 1;
+                            moveGridPosY = myGridPosY;
                         }
                     }
                 }
-
-                if (legalMove)
-                {
-
-                }
+            }
+            else
+            {
+                midLegalMove = false;
             }
         }
         else
@@ -206,17 +247,80 @@ public class BiomeBlock : MonoBehaviour
                 transform.localScale = Vector3.Lerp(transform.localScale, initialScale, onSelectScaleSpeed * Time.deltaTime);
             }
 
-            if (transform.position != GridController.gridInstance.gridPositions[myGridPosX,myGridPosY].trans.position)
+            if (midLegalMove)
             {
-                transform.position = Vector3.MoveTowards(transform.position, GridController.gridInstance.gridPositions[myGridPosX, myGridPosY].trans.position, 
-                    onReleaseMoveSpeed * Time.deltaTime);
+                if (Vector3.Distance(transform.position, GridController.gridInstance.gridPositions[moveGridPosX, moveGridPosY].trans.position) > 0.1f)
+                {
+                    transform.position = Vector3.Lerp(transform.position, GridController.gridInstance.gridPositions[moveGridPosX, moveGridPosY].trans.position,
+                        onLegalMoveSpeed * Time.deltaTime);
+                }
+                else
+                {
+                    // Initiate Fusion
+                    // First, we locate the correct new biome to spawn
+                    Biome newBiome = null;
+                    GameObject newBiomeFusionEffect = null;
+
+                    for (int i = 0; i < biome.fusions.Length; i++)
+                    {
+                        if (biome.fusions[i].fusionPartner == GridController.gridInstance.gridPositions[moveGridPosX, moveGridPosY].biomeBlock.biome)
+                        {
+                            newBiome = biome.fusions[i].result;
+                            newBiomeFusionEffect = biome.fusions[i].effects;
+                            break;
+                        }
+                    }
+
+                    if (newBiome == null)
+                    {
+                        Debug.LogError("Biome Fusion not found in " + biome + " fusion list");
+                    }
+                    else
+                    {
+                        // Instantiate effects for the fusion, if they exist
+                        if (newBiomeFusionEffect != null)
+                        {
+                            Instantiate(newBiomeFusionEffect,
+                                GridController.gridInstance.gridPositions[moveGridPosX, moveGridPosY].trans.position,
+                                Quaternion.identity);
+                        }
+
+                        // Create the new biome and store it in the grid
+                        GameObject newBiomeObj = Instantiate(newBiome.biomeBody, 
+                            GridController.gridInstance.gridPositions[moveGridPosX, moveGridPosY].trans.position,
+                            Quaternion.identity) as GameObject;
+
+                        // Delete the original biome in the new position
+                        Destroy(GridController.gridInstance.gridPositions[moveGridPosX, moveGridPosY].biomeBlock.gameObject);
+
+                        BiomeBlock newBiomeBlock = newBiomeObj.GetComponent<BiomeBlock>();
+                        GridController.gridInstance.gridPositions[moveGridPosX, moveGridPosY].biomeBlock = newBiomeBlock;
+                        newBiomeBlock.myGridPosX = moveGridPosX;
+                        newBiomeBlock.myGridPosX = moveGridPosY;
+
+                        // Finally, we delete this biome block
+                        Destroy(gameObject);
+                    }
+                    
+                }
+            }
+            else
+            {
+                if (transform.position != GridController.gridInstance.gridPositions[myGridPosX, myGridPosY].trans.position)
+                {
+                    transform.position = Vector3.MoveTowards(transform.position, GridController.gridInstance.gridPositions[myGridPosX, myGridPosY].trans.position,
+                        onReleaseMoveSpeed * Time.deltaTime);
+                }
             }
         }
     }
 
     private void OnMouseDown()
     {
-        blockSelected = true;
+        if (!midLegalMove)
+        {
+            blockSelected = true;
+        }
 
         initialMousePos = Input.mousePosition;
     }

@@ -9,8 +9,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4342228257914391249, guid: cc593c3081b1b50468e229666a4c2742, type: 3}
       propertyPath: m_Name
-      value: OceanBiomeBlock
+      value: OceanBiomeBlock Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5462516099719380371, guid: cc593c3081b1b50468e229666a4c2742, type: 3}
+      propertyPath: biome
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f87b15a8b53a844cb9cabcbc56ceb16, type: 2}
     - target: {fileID: 7476427383757064951, guid: cc593c3081b1b50468e229666a4c2742, type: 3}
       propertyPath: m_RootOrder
       value: 0

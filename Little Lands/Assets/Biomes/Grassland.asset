@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b836592dd58974745868b89baeef3210, type: 3}
   m_Name: Grassland
   m_EditorClassIdentifier: 
-  biomeBody: {fileID: 0}
+  biomeBody: {fileID: 2193149610417719756, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
   fusions: []

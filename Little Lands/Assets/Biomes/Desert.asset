@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b836592dd58974745868b89baeef3210, type: 3}
   m_Name: Desert
   m_EditorClassIdentifier: 
-  biomeBody: {fileID: 0}
+  biomeBody: {fileID: 4342228257914391249, guid: cc593c3081b1b50468e229666a4c2742, type: 3}
   fusions:
   - fusionPartner: {fileID: 11400000, guid: 8f87b15a8b53a844cb9cabcbc56ceb16, type: 2}
     result: {fileID: 11400000, guid: 776cefee2590bdc42ab63e410b45545c, type: 2}

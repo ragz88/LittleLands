@@ -4,26 +4,30 @@ using UnityEngine;
 
 public class GridController : MonoBehaviour
 {
-    [System.Serializable]
+   
     public struct GridPosition
     {
         public Transform trans;
         public BiomeBlock biomeBlock;
     }
 
-    [SerializeField]
     public GridPosition[,] gridPositions = new GridPosition[3,3];
 
 
     [SerializeField]
-    float blockPositionPadding;
+    protected float blockPositionPadding;
 
     [SerializeField]
-    GameObject gridPositionTransformPrefab;
+    protected GameObject gridPositionTransformPrefab;
+
+
+    [SerializeField]
+    protected LayerMask populatingRayLayerMask;
+
 
     public static GridController gridInstance;
 
-    private void Awake()
+    /*private void Awake()
     {
         if (gridInstance == null)
         {
@@ -33,11 +37,21 @@ public class GridController : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }
+    }*/
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
+        if (gridInstance == null)
+        {
+            gridInstance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+
         for (int i = 0; i < 3; i ++)
         {
             for (int j = 0; j < 3; j++)
@@ -47,6 +61,17 @@ public class GridController : MonoBehaviour
                     Quaternion.identity) as GameObject;
 
                 gridPositions[i, j].trans = tempTrans.transform;
+
+                RaycastHit rayHit;
+
+                if (Physics.Raycast(tempTrans.transform.position + new Vector3(0, 2, 0), Vector3.down, out rayHit, 3, populatingRayLayerMask))
+                {
+                    gridPositions[i, j].biomeBlock = rayHit.collider.gameObject.GetComponent<BiomeBlock>();
+                    gridPositions[i, j].biomeBlock.myGridPosX = i;
+                    gridPositions[i, j].biomeBlock.myGridPosX = j;
+                }
+
+                // print("Pos " + i + ", " + j + " contains:   " + gridPositions[i, j].biomeBlock);
             }
         }
     }

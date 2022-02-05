@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b836592dd58974745868b89baeef3210, type: 3}
   m_Name: Ocean
   m_EditorClassIdentifier: 
-  biomeBody: {fileID: 0}
+  biomeBody: {fileID: 2193149610417719756, guid: cab31de3d51d36f44b1f77cc2a29b635, type: 3}
   fusions:
   - fusionPartner: {fileID: 11400000, guid: d9e656d7949965e4cbbc6c461c9fc8ff, type: 2}
     result: {fileID: 11400000, guid: 776cefee2590bdc42ab63e410b45545c, type: 2}
