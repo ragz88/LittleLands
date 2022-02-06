@@ -112,7 +112,7 @@ MonoBehaviour:
   onSelectScaleIncrease: 1.14
   onSelectScaleSpeed: 6
   onReleaseMoveSpeed: 0.4
-  onLegalMoveSpeed: 6.5
+  onLegalMoveSpeed: 7.5
   previewMoveSpeed: 4
   moveDistanceThreshold: 0.15
   movePreviewDistance: 0.3
