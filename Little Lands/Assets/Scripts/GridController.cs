@@ -25,7 +25,12 @@ public class GridController : MonoBehaviour
     protected LayerMask populatingRayLayerMask;
 
 
+    public bool levelCompleted = false;
+
     public static GridController gridInstance;
+
+
+    SolutionDetector solutionDetector;
 
     /*private void Awake()
     {
@@ -74,11 +79,26 @@ public class GridController : MonoBehaviour
                 // print("Pos " + i + ", " + j + " contains:   " + gridPositions[i, j].biomeBlock);
             }
         }
+
+        solutionDetector = GetComponentInChildren<SolutionDetector>();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    /// <summary>
+    /// Checks if the player has won. If not, checks whether they can continue playing or not.
+    /// </summary>
+    public void CheckGridState()
+    {
+        solutionDetector.CheckSolutions();
+
+        if (!levelCompleted)
+        {
+            solutionDetector.CheckForStalemate();
+        }
     }
 }
