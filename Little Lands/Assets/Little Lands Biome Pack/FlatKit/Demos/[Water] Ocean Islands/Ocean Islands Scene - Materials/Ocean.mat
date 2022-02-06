@@ -111,7 +111,7 @@ Material:
     - _RefractionFrequency: 35
     - _RefractionScale: 1
     - _RefractionSpeed: 0.1
-    - _ShadowStrength: 0.409
+    - _ShadowStrength: 0.35
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -120,7 +120,7 @@ Material:
     - _Surface: 0
     - _UvFadeX: 0.1
     - _UvFadeY: 0.1
-    - _WaterClearness: 0.239
+    - _WaterClearness: 0.25
     - _WaterDepth: 10
     - _WaveAmplitude: 0.25
     - _WaveDirection: 0
@@ -133,8 +133,8 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0, g: 1, b: 0.7287984, a: 1}
-    - _ColorDeep: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
-    - _ColorShallow: {r: 0.15686277, g: 0.41032618, b: 0.44313726, a: 1}
+    - _ColorDeep: {r: 0.1745283, g: 0.6114487, b: 1, a: 1}
+    - _ColorShallow: {r: 0.37264147, g: 1, b: 0.95661885, a: 0.6}
     - _CrestColor: {r: 1, g: 1, b: 1, a: 0.9}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 0.8509804}

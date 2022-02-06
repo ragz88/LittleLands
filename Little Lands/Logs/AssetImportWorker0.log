@@ -4,26 +4,26 @@ OS: 'Windows 10 Home; OS build 19042.1466; Version 2009; 64bit' Language: 'en' P
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\Programs\Unity\2020.3.19f1\Editor\Unity.exe
+D:\Unity Stuff\2020.3.19f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Dextrus/Desktop/LittleLandsRepo/LittleLands/Little Lands
+C:/Users/Rodwi/Documents/GitHub/LittleLands/Little Lands
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57754
-Successfully changed project path to: C:/Users/Dextrus/Desktop/LittleLandsRepo/LittleLands/Little Lands
-C:/Users/Dextrus/Desktop/LittleLandsRepo/LittleLands/Little Lands
+51085
+Successfully changed project path to: C:/Users/Rodwi/Documents/GitHub/LittleLands/Little Lands
+C:/Users/Rodwi/Documents/GitHub/LittleLands/Little Lands
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 82.93 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 68.44 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
-[Subsystems] Discovering subsystems at path D:/Programs/Unity/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Dextrus/Desktop/LittleLandsRepo/LittleLands/Little Lands/Assets
+[Subsystems] Discovering subsystems at path D:/Unity Stuff/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Rodwi/Documents/GitHub/LittleLands/Little Lands/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -32,44 +32,40 @@ Direct3D:
     VRAM:     5980 MB
     Driver:   27.21.14.6231
 Initialize mono
-Mono path[0] = 'D:/Programs/Unity/2020.3.19f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Programs/Unity/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Programs/Unity/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Mono path[0] = 'D:/Unity Stuff/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Stuff/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity Stuff/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Programs/Unity/2020.3.19f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: D:/Programs/Unity/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: D:/Programs/Unity/2020.3.19f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001425 seconds.
-Native extension for LinuxStandalone target not found
+Register platform support module: D:/Unity Stuff/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001669 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 64.21 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 61.34 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.999 seconds
+- Completed reload, in  1.416 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2000ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (1416ms)
+		BeginReloadAssembly (81ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (521ms)
-			LoadAssemblies (50ms)
+		EndReloadAssembly (437ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (158ms)
+			SetupTypeCache (157ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (196ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (182ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (64ms)
-				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (81ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (72ms)
 				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -77,12 +73,10 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006596 seconds.
+Registered in 0.008355 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 70.69 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 58.13 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Could not locate ProBuilder/Icons folder.  The ProBuilder folder may be moved, but the contents of this folder must remain unmodified relative to ProBuilder root.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -100,51 +94,399 @@ UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
 ProGrids.pg_IconUtility:FindFolder (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:47)
 ProGrids.pg_IconUtility:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:20)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:549)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 47)
 
+ProGrids failed to locate menu image: ProGrids2_GUI_Vis_On.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:549)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_Vis_Off.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:552)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_Snap_On.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:555)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_Snap_Off.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:558)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PushToGrid_Normal.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:561)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_Lock_On.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:564)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_Lock_Off.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:567)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_AngleVis_On.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:570)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_AngleVis_Off.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:573)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_X_On.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:576)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_X_Off.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:579)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_Y_On.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:582)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_Y_Off.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:585)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_Z_On.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:588)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_Z_Off.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:591)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_3D_On.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:594)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_3D_Off.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:597)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_MenuExtendo_Open.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:600)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_MenuExtendo_Close.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:603)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.341 seconds
+- Completed reload, in  1.254 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1342ms)
-		BeginReloadAssembly (166ms)
+	ReloadAssembly (1254ms)
+		BeginReloadAssembly (163ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1112ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1034ms)
+			LoadAssemblies (122ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (335ms)
+			SetupTypeCache (323ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (473ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (440ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (295ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (285ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3074 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.6 MB.
-System memory in use after: 138.8 MB.
+Unloading 3075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.9 MB.
+System memory in use after: 143.1 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3538.
-Total: 3.530400 ms (FindLiveObjects: 0.329000 ms CreateObjectMapping: 0.182900 ms MarkObjects: 2.936700 ms  DeleteObjects: 0.080200 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3540.
+Total: 4.193400 ms (FindLiveObjects: 0.332100 ms CreateObjectMapping: 0.203900 ms MarkObjects: 3.539400 ms  DeleteObjects: 0.116900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -161,206 +503,173 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Readme.asset
   artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffd2c44ffeb50c574abb5d0c4453328') in 0.050184 seconds 
-  Import took 0.054555 seconds .
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3b9f17ff219922461d349995487975') in 0.048492 seconds 
+  Import took 0.053782 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2852.709283 seconds.
-  path: Assets/Little Lands Biome Pack
-  artifactKey: Guid(224fa87a019ba1148867a17f5eeb1a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack using Guid(224fa87a019ba1148867a17f5eeb1a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1ec961468b27a8bbd5603db08433d8') in 0.008566 seconds 
-  Import took 0.013702 seconds .
+  Time since last request: 74.322066 seconds.
+  path: Assets/FlatKit
+  artifactKey: Guid(faa786e12ca680245b66480c6058c969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit using Guid(faa786e12ca680245b66480c6058c969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2602536c0513e3e8967c2fde43358b8') in 0.002178 seconds 
+  Import took 0.006689 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.600437 seconds.
-  path: Assets/Little Lands Biome Pack/Edge Detection and Render Passes
-  artifactKey: Guid(92299239b1e8351429616ad4dc651370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Edge Detection and Render Passes using Guid(92299239b1e8351429616ad4dc651370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768044fcd598eef2c4166cba3139145a') in 0.008079 seconds 
-  Import took 0.012604 seconds .
+  Time since last request: 0.065355 seconds.
+  path: Assets/FlatKit/[Readme].asset
+  artifactKey: Guid(56f504eeac6f64677b83cfa9ff99292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/[Readme].asset using Guid(56f504eeac6f64677b83cfa9ff99292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9336f83cb048c8eb347cc8b96a99c84') in 0.002918 seconds 
+  Import took 0.007326 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.688021 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs
-  artifactKey: Guid(2ce605e7261d84c4aa287a040581fc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs using Guid(2ce605e7261d84c4aa287a040581fc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7db61fdebbcecb838ced5ae80dbb8a') in 0.007864 seconds 
-  Import took 0.012880 seconds .
+  Time since last request: 2.723864 seconds.
+  path: Assets/FlatKit/[Render Pipeline] Universal (URP).unitypackage
+  artifactKey: Guid(41e59f562b69648719f2424c438758f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/[Render Pipeline] Universal (URP).unitypackage using Guid(41e59f562b69648719f2424c438758f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01ed6a8d6fb9aba31bbcfb987c14aa0') in 0.020329 seconds 
+  Import took 0.024642 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 1.036424 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes
-  artifactKey: Guid(a1351eaec4b9f4844bc2f3f2959b0ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes using Guid(a1351eaec4b9f4844bc2f3f2959b0ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857b8dddebc2cd4e59032d160b04f0fb') in 0.026141 seconds 
-  Import took 0.040436 seconds .
+Received Prepare
+Switching render pipeline 19ba41d7c0026c3459d37c2fe90c55a0 -> ecbd363870e07455ea237f5753668d30
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+FlatKit.ShaderIncludeUtilities:AddAlwaysIncludedShader (string) (at Assets/Little Lands Biome Pack/FlatKit/[Render Pipeline] URP/RenderFeatures/Common/ShaderIncludeUtilities.cs:40)
+FlatKit.FlatKitFog:InitMaterial () (at Assets/Little Lands Biome Pack/FlatKit/[Render Pipeline] URP/RenderFeatures/Fog/FlatKitFog.cs:128)
+FlatKit.FlatKitFog:Create () (at Assets/Little Lands Biome Pack/FlatKit/[Render Pipeline] URP/RenderFeatures/Fog/FlatKitFog.cs:94)
+UnityEngine.Rendering.Universal.ScriptableRendererFeature:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/ScriptableRendererFeature.cs:39)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Savanna.prefab
-  artifactKey: Guid(31576e577807843479ac5012234402a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Savanna.prefab using Guid(31576e577807843479ac5012234402a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227b106c8adda4d7f9ef7c96fdbecb78') in 1.274162 seconds 
-  Import took 1.281179 seconds .
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetDatabaseInternal.cpp line 1901]
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Hillside.prefab
-  artifactKey: Guid(b7861fe0a8208754fa403e10e339aaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Hillside.prefab using Guid(b7861fe0a8208754fa403e10e339aaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad201797128b2dabe816609df07b619') in 0.219110 seconds 
-  Import took 0.224326 seconds .
+Assets queued for import after Refresh completed:
+	ProjectSettings/GraphicsSettings.asset
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+FlatKit.ShaderIncludeUtilities:AddAlwaysIncludedShader (string) (at Assets/Little Lands Biome Pack/FlatKit/[Render Pipeline] URP/RenderFeatures/Common/ShaderIncludeUtilities.cs:40)
+FlatKit.FlatKitFog:InitMaterial () (at Assets/Little Lands Biome Pack/FlatKit/[Render Pipeline] URP/RenderFeatures/Fog/FlatKitFog.cs:128)
+FlatKit.FlatKitFog:Create () (at Assets/Little Lands Biome Pack/FlatKit/[Render Pipeline] URP/RenderFeatures/Fog/FlatKitFog.cs:94)
+UnityEngine.Rendering.Universal.ScriptableRendererFeature:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/ScriptableRendererFeature.cs:39)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Ocean.prefab
-  artifactKey: Guid(1a2beeb35f184b846b660415eb93cf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Ocean.prefab using Guid(1a2beeb35f184b846b660415eb93cf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e0dab97a5252034b21d8af3679f1b1') in 1.851041 seconds 
-  Import took 1.856086 seconds .
+[C:\buildslave\unity\build\Runtime\Core\unique_ptr.h line 141]
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/volcano.prefab
-  artifactKey: Guid(b70de00605142da4da5825efefd48ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/volcano.prefab using Guid(b70de00605142da4da5825efefd48ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd8b79e79a95a859263426fffa10371') in 0.388863 seconds 
-  Import took 0.393760 seconds .
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitOutline.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Outline\FlatKitOutline.cs:89 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnValidate () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:39 
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Island.prefab
-  artifactKey: Guid(d40a2a484e0c12a418536d5cdac7c374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Island.prefab using Guid(d40a2a484e0c12a418536d5cdac7c374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b298a0f634d869383fd05106e4728d36') in 0.235442 seconds 
-  Import took 0.240943 seconds .
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitOutline.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Outline\FlatKitOutline.cs:89 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnValidate () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:39 
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Beach.prefab
-  artifactKey: Guid(dd2bfdb8a04cf6e45966724bd04438ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Beach.prefab using Guid(dd2bfdb8a04cf6e45966724bd04438ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf831427c2d1484f951ad39cff6dd40') in 0.227389 seconds 
-  Import took 0.236656 seconds .
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitFog.InitMaterial () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:128 
+  at FlatKit.FlatKitFog.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:94 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnValidate () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:39 
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Frozen Mountain .prefab
-  artifactKey: Guid(ad727c5fa185bf6489d374f6991a9323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Frozen Mountain .prefab using Guid(ad727c5fa185bf6489d374f6991a9323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a94dc30d2c0dcba7e27f004600cd556') in 0.181114 seconds 
-  Import took 0.186716 seconds .
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitFog.InitMaterial () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:128 
+  at FlatKit.FlatKitFog.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:94 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnValidate () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:39 
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Frozen Waterfall .prefab
-  artifactKey: Guid(e97cbc383a1f2d54b85d86a07d604b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Frozen Waterfall .prefab using Guid(e97cbc383a1f2d54b85d86a07d604b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8d30a58f9e93eabfdedfa0332dbfd9') in 0.473961 seconds 
-  Import took 0.479306 seconds .
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitOutline.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Outline\FlatKitOutline.cs:89 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnValidate () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:39 
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Mountain.prefab
-  artifactKey: Guid(f4ab669e7272c314497c822d7eebfa4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Mountain.prefab using Guid(f4ab669e7272c314497c822d7eebfa4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb71e6ded41f13d9b5164404b67b79e') in 0.150762 seconds 
-  Import took 0.155616 seconds .
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitFog.InitMaterial () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:128 
+  at FlatKit.FlatKitFog.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:94 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnValidate () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:39 
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Arctic.prefab
-  artifactKey: Guid(e6dc85929ed9b6640a23b4e29057f3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Arctic.prefab using Guid(e6dc85929ed9b6640a23b4e29057f3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c991c13fb8072ceb9706776569d995') in 0.163241 seconds 
-  Import took 0.169613 seconds .
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitFog.InitMaterial () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:128 
+  at FlatKit.FlatKitFog.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:94 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnEnable () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:34 
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Swamp.prefab
-  artifactKey: Guid(9685b48e848948e40a0453756b238628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Swamp.prefab using Guid(9685b48e848948e40a0453756b238628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bf6895eff240f634fd856004be4377') in 0.391286 seconds 
-  Import took 0.398313 seconds .
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitOutline.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Outline\FlatKitOutline.cs:89 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnEnable () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:34 
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Desert.prefab
-  artifactKey: Guid(8bb4bf90bfa8f5d4e9ac2fa88d3e2d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Desert.prefab using Guid(8bb4bf90bfa8f5d4e9ac2fa88d3e2d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1246caf0916aaceb622f4d36f9c465') in 0.165900 seconds 
-  Import took 0.171243 seconds .
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitOutline.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Outline\FlatKitOutline.cs:89 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnEnable () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:34 
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Grassland.prefab
-  artifactKey: Guid(7e3b030e364b4e346a8be93c408b4acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Grassland.prefab using Guid(7e3b030e364b4e346a8be93c408b4acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd075f67efd2e30949da252f4627021eb') in 0.186092 seconds 
-  Import took 0.192803 seconds .
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitFog.InitMaterial () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:128 
+  at FlatKit.FlatKitFog.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:94 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnEnable () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:34 
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Ice Forest.prefab
-  artifactKey: Guid(b47e18c774877eb498659fd8b7585e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Ice Forest.prefab using Guid(b47e18c774877eb498659fd8b7585e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4e45edba8084497c711f2b8fce3589') in 0.171379 seconds 
-  Import took 0.177887 seconds .
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitFog.InitMaterial () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:128 
+  at FlatKit.FlatKitFog.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:94 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnEnable () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:34 
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Cliff.prefab
-  artifactKey: Guid(04eac0c8d70a03040ac34c7f7e1aa29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Cliff.prefab using Guid(04eac0c8d70a03040ac34c7f7e1aa29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682c653af24dc44f902d356957fc377e') in 0.182240 seconds 
-  Import took 0.188990 seconds .
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitOutline.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Outline\FlatKitOutline.cs:89 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnEnable () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:34 
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Jungle.prefab
-  artifactKey: Guid(165a9d1fc63a24547a1ef6337ef54807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Jungle.prefab using Guid(165a9d1fc63a24547a1ef6337ef54807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf820892733f193d301c370c47f36046') in 0.166895 seconds 
-  Import took 0.173617 seconds .
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitFog.InitMaterial () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:128 
+  at FlatKit.FlatKitFog.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:94 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnEnable () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:34 
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Frozon Lake .prefab
-  artifactKey: Guid(257152498a9a8fc49af19069ac43ed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Frozon Lake .prefab using Guid(257152498a9a8fc49af19069ac43ed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8154b485070542f1e150b1d87c24cadc') in 0.177244 seconds 
-  Import took 0.182961 seconds .
+Refreshing native plugins compatible for Editor in 13.55 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.4 MB.
+System memory in use after: 80.7 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Waterfall.prefab
-  artifactKey: Guid(d891861825b2d164a8ebe16c8b2e2acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Waterfall.prefab using Guid(d891861825b2d164a8ebe16c8b2e2acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3bcfbf9ce701218bbd89de1fe3cf34d') in 0.669148 seconds 
-  Import took 0.675311 seconds .
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3581.
+Total: 5.627900 ms (FindLiveObjects: 0.358600 ms CreateObjectMapping: 0.192600 ms MarkObjects: 4.423700 ms  DeleteObjects: 0.651400 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Pyramid.prefab
-  artifactKey: Guid(30d43768b8862a045b8035b3ca761789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Pyramid.prefab using Guid(30d43768b8862a045b8035b3ca761789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a944bc332ed68d4a49662c9faebeea5c') in 0.175848 seconds 
-  Import took 0.181804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Iceberg.prefab
-  artifactKey: Guid(b7a15692f0d472f4c8ef305af47a0349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Iceberg.prefab using Guid(b7a15692f0d472f4c8ef305af47a0349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c219b737d8507d81f9c5dc60d9b241') in 0.222409 seconds 
-  Import took 0.229009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Lake.prefab
-  artifactKey: Guid(3ed1fb1685d58b049a0c1178e0c8c6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Lake.prefab using Guid(3ed1fb1685d58b049a0c1178e0c8c6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd9babc20d2e725065b1f72685fc9e7') in 0.222727 seconds 
-  Import took 0.229036 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
