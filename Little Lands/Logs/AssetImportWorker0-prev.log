@@ -4,26 +4,26 @@ OS: 'Windows 10 Home; OS build 19042.1466; Version 2009; 64bit' Language: 'en' P
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\Programs\Unity\2020.3.19f1\Editor\Unity.exe
+D:\Unity Stuff\2020.3.19f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Dextrus/Desktop/LittleLandsRepo/LittleLands/Little Lands
+C:/Users/Rodwi/Documents/GitHub/LittleLands/Little Lands
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56669
-Successfully changed project path to: C:/Users/Dextrus/Desktop/LittleLandsRepo/LittleLands/Little Lands
-C:/Users/Dextrus/Desktop/LittleLandsRepo/LittleLands/Little Lands
+53298
+Successfully changed project path to: C:/Users/Rodwi/Documents/GitHub/LittleLands/Little Lands
+C:/Users/Rodwi/Documents/GitHub/LittleLands/Little Lands
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 154.82 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
-[Subsystems] Discovering subsystems at path D:/Programs/Unity/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Dextrus/Desktop/LittleLandsRepo/LittleLands/Little Lands/Assets
+[Subsystems] Discovering subsystems at path D:/Unity Stuff/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Rodwi/Documents/GitHub/LittleLands/Little Lands/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -32,758 +32,156 @@ Direct3D:
     VRAM:     5980 MB
     Driver:   27.21.14.6231
 Initialize mono
-Mono path[0] = 'D:/Programs/Unity/2020.3.19f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Programs/Unity/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Programs/Unity/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Mono path[0] = 'D:/Unity Stuff/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Stuff/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity Stuff/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Programs/Unity/2020.3.19f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: D:/Programs/Unity/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: D:/Programs/Unity/2020.3.19f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001372 seconds.
-Native extension for LinuxStandalone target not found
+Register platform support module: D:/Unity Stuff/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003975 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 51.11 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 133.89 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.324 seconds
+- Completed reload, in  3.625 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1324ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (3626ms)
+		BeginReloadAssembly (344ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (426ms)
-			LoadAssemblies (51ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1020ms)
+			LoadAssemblies (340ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (142ms)
+			SetupTypeCache (366ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (176ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (421ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (51ms)
-				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (75ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				RefreshPlugins (134ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003209 seconds.
+Registered in 0.012394 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
+Symbol file data-0000012BFF14D010 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFF562030 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFF22B020 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFF4B9760 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFEE74C30 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012A25073BF0 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFF56A040 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFFB173F0 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFF56A040 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFF56A040 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFF07E010 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012A24F43020 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFF314020 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012A24F43020 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFFA144C0 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012A23855050 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFFB173F0 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012A238B9BC0 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFF55A4D0 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFF4B9B40 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFF07E010 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012A239AC010 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012A24440020 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012A23E39420 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFF07E010 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFF4B9760 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFF4B9760 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012A23904010 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012A23E39420 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFF4A59C0 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012A23F0C030 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012BFF944450 doesn't match image C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 52.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 143.10 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.091 seconds
+- Completed reload, in  2.852 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1092ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (2854ms)
+		BeginReloadAssembly (415ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (902ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (359ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (53ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (207ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2705 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.3 MB.
-System memory in use after: 123.5 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3140.
-Total: 2.966000 ms (FindLiveObjects: 0.229900 ms CreateObjectMapping: 0.116900 ms MarkObjects: 2.548800 ms  DeleteObjects: 0.069600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(ce8589ed1fddab342b458bfe19e62ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(ce8589ed1fddab342b458bfe19e62ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb8c37494365bc511f6414e348ddfd0') in 0.008279 seconds 
-  Import took 0.011640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.069757 seconds.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(c27d5d7061ca86544a212fa613bf9340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(c27d5d7061ca86544a212fa613bf9340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c283cc40d3bb445c2126e62e2ee70d5') in 0.015269 seconds 
-  Import took 0.019696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 104.455112 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a913a0049096cde5d6a727232f232f') in 0.007203 seconds 
-  Import took 0.010799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.552148 seconds.
-  path: Assets/Scripts/SimpleCameraController.cs
-  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f43657664d19fbc476a42e0fad91a9') in 0.048968 seconds 
-  Import took 0.052692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.364135 seconds.
-  path: Assets/Scripts/Biome.cs
-  artifactKey: Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Biome.cs using Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97265b4eea2b262dd923499ad11c0762') in 0.006613 seconds 
-  Import took 0.011947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.648922 seconds.
-  path: Assets/Scripts/Biome.cs
-  artifactKey: Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Biome.cs using Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1ad08b29acfd2b43a97784f4e2091f') in 0.002122 seconds 
-  Import took 0.006118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.159041 seconds.
-  path: Assets/Scripts/Biome.cs
-  artifactKey: Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Biome.cs using Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa7ccfe2751701b3a7939d31c2a9d34') in 0.004859 seconds 
-  Import took 0.010359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 83.772972 seconds.
-  path: Assets/Scripts/Biome.cs
-  artifactKey: Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Biome.cs using Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a582ade6821c301b05a1ed8f4abd17') in 0.003203 seconds 
-  Import took 0.007911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.399991 seconds.
-  path: Assets/Scripts/Biome.cs
-  artifactKey: Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Biome.cs using Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1fa66c9d026316a49448eca4d0fa0d') in 0.004166 seconds 
-  Import took 0.008095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.250017 seconds.
-  path: Assets/Scripts/Biome.cs
-  artifactKey: Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Biome.cs using Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5b9675baee5919a6c8521edc64fbe0') in 0.003882 seconds 
-  Import took 0.008073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.626231 seconds.
-  path: Assets/Scripts/Biome.cs
-  artifactKey: Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Biome.cs using Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cf0eb756ab2180e83895948f8ee648') in 0.003640 seconds 
-  Import took 0.008110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.902398 seconds.
-  path: Assets/Scripts/Biome.cs
-  artifactKey: Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Biome.cs using Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3bfe9441286038704a533b54da30e7') in 0.003782 seconds 
-  Import took 0.008033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.932976 seconds.
-  path: Assets/Scripts/Biome.cs
-  artifactKey: Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Biome.cs using Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc89fdcf4521b00a18c4c174f96316fd') in 0.004196 seconds 
-  Import took 0.010407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.158905 seconds.
-  path: Assets/Scripts/Biome.cs
-  artifactKey: Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Biome.cs using Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f27792cd097cd04f634a4ef6c32c1b') in 0.003953 seconds 
-  Import took 0.007852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.171659 seconds.
-  path: Assets/Scripts/Biome.cs
-  artifactKey: Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Biome.cs using Guid(b836592dd58974745868b89baeef3210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c815e70b73c8d32b12095f231d474be') in 0.004481 seconds 
-  Import took 0.008770 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003404 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.092 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1092ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (925ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (394ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (172ms)
-				ProcessInitializeOnLoadAttributes (208ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2596 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.1 MB.
-System memory in use after: 116.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3143.
-Total: 2.840000 ms (FindLiveObjects: 0.241900 ms CreateObjectMapping: 0.126400 ms MarkObjects: 2.450300 ms  DeleteObjects: 0.020400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 16.921203 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.009931 seconds 
-  Import took 0.014204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.744032 seconds.
-  path: Assets/Biomes
-  artifactKey: Guid(08e1259fd0220a649ac66777e5803c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes using Guid(08e1259fd0220a649ac66777e5803c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434f7e8cd2efabafff7401b508ae6f81') in 0.010137 seconds 
-  Import took 0.014294 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003593 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.005 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1006ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (836ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (290ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (305ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (208ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2596 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.2 MB.
-System memory in use after: 116.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3145.
-Total: 3.194900 ms (FindLiveObjects: 0.261600 ms CreateObjectMapping: 0.134200 ms MarkObjects: 2.774100 ms  DeleteObjects: 0.023800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 143.163278 seconds.
-  path: Assets/Biomes/Ocean.asset
-  artifactKey: Guid(8f87b15a8b53a844cb9cabcbc56ceb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Ocean.asset using Guid(8f87b15a8b53a844cb9cabcbc56ceb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ca8e7d0d6e70214d4a7e3dd72640cd') in 0.033799 seconds 
-  Import took 0.038442 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003112 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.047 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1047ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (876ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (329ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (290ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (194ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2596 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.2 MB.
-System memory in use after: 116.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3147.
-Total: 2.932200 ms (FindLiveObjects: 0.255300 ms CreateObjectMapping: 0.118900 ms MarkObjects: 2.534000 ms  DeleteObjects: 0.022900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 35.884322 seconds.
-  path: Assets/Biomes/Desert.asset
-  artifactKey: Guid(d9e656d7949965e4cbbc6c461c9fc8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Desert.asset using Guid(d9e656d7949965e4cbbc6c461c9fc8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34db78fff2faa06e10b56457aa42d1c7') in 0.024715 seconds 
-  Import took 0.030476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.829354 seconds.
-  path: Assets/Biomes/Beach.asset
-  artifactKey: Guid(776cefee2590bdc42ab63e410b45545c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Beach.asset using Guid(776cefee2590bdc42ab63e410b45545c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cef65d83e00d611bf258f614a24f6f1') in 0.012986 seconds 
-  Import took 0.019751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.073357 seconds.
-  path: Assets/Biomes/Desert.asset
-  artifactKey: Guid(d9e656d7949965e4cbbc6c461c9fc8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Desert.asset using Guid(d9e656d7949965e4cbbc6c461c9fc8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423767bc3943728c11f51637d7f6eb6b') in 0.005063 seconds 
-  Import took 0.011784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Biomes/Ocean.asset
-  artifactKey: Guid(8f87b15a8b53a844cb9cabcbc56ceb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Ocean.asset using Guid(8f87b15a8b53a844cb9cabcbc56ceb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a49750d875a4d8ee188ad7d4cf47f25') in 0.004894 seconds 
-  Import took 0.009447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 788.768771 seconds.
-  path: Assets/Scripts/GridController.cs
-  artifactKey: Guid(3b718e5a8ecc46849b93c11a1b9a2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GridController.cs using Guid(3b718e5a8ecc46849b93c11a1b9a2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcb1319a4820977185f776b8f871036') in 0.009260 seconds 
-  Import took 0.014319 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003729 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.096 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1097ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (920ms)
-			LoadAssemblies (88ms)
+		EndReloadAssembly (2299ms)
+			LoadAssemblies (298ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (295ms)
+			SetupTypeCache (758ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (383ms)
+			RebuildScriptCaches (128ms)
+			SetupLoadedEditorAssemblies (866ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (281ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2597 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.2 MB.
-System memory in use after: 116.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3150.
-Total: 2.772900 ms (FindLiveObjects: 0.252700 ms CreateObjectMapping: 0.110500 ms MarkObjects: 2.390500 ms  DeleteObjects: 0.018100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 10.472822 seconds.
-  path: Assets/Scripts/BiomeBlock.cs
-  artifactKey: Guid(0a4543e6c4476c64aaee1d701e2b6306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BiomeBlock.cs using Guid(0a4543e6c4476c64aaee1d701e2b6306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a606fb228b16fdad75907b47427912e9') in 0.009252 seconds 
-  Import took 0.013501 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003177 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.071 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1071ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (878ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (321ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2598 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.3 MB.
-System memory in use after: 116.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3153.
-Total: 2.978900 ms (FindLiveObjects: 0.283100 ms CreateObjectMapping: 0.150300 ms MarkObjects: 2.525000 ms  DeleteObjects: 0.019500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 105.540249 seconds.
-  path: Assets/Scripts/GridController.cs
-  artifactKey: Guid(3b718e5a8ecc46849b93c11a1b9a2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GridController.cs using Guid(3b718e5a8ecc46849b93c11a1b9a2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71724ee3ab07065394d002a70ffb2ffa') in 0.006977 seconds 
-  Import took 0.011883 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.444059 seconds.
-  path: Assets/Scripts/GridController.cs
-  artifactKey: Guid(3b718e5a8ecc46849b93c11a1b9a2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GridController.cs using Guid(3b718e5a8ecc46849b93c11a1b9a2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ddbd994088db84069190915621215e') in 0.003867 seconds 
-  Import took 0.008490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.535544 seconds.
-  path: Assets/Scripts/GridController.cs
-  artifactKey: Guid(3b718e5a8ecc46849b93c11a1b9a2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GridController.cs using Guid(3b718e5a8ecc46849b93c11a1b9a2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8db33f5d826e2c7acb2357608fb065') in 0.003622 seconds 
-  Import took 0.008477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.088022 seconds.
-  path: Assets/Scripts/GridController.cs
-  artifactKey: Guid(3b718e5a8ecc46849b93c11a1b9a2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GridController.cs using Guid(3b718e5a8ecc46849b93c11a1b9a2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e767f2b263fd270474edcc00f87ae7') in 0.003370 seconds 
-  Import took 0.008156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.005121 seconds.
-  path: Assets/Scripts/GridController.cs
-  artifactKey: Guid(3b718e5a8ecc46849b93c11a1b9a2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GridController.cs using Guid(3b718e5a8ecc46849b93c11a1b9a2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cdc8ccf7a8442e29cc1d06e1e835e2') in 0.002815 seconds 
-  Import took 0.007146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.778936 seconds.
-  path: Assets/Scripts/GridController.cs
-  artifactKey: Guid(3b718e5a8ecc46849b93c11a1b9a2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GridController.cs using Guid(3b718e5a8ecc46849b93c11a1b9a2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73547366503544e429fb5fe71e9f9416') in 0.004978 seconds 
-  Import took 0.009201 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003228 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.119 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1119ms)
-		BeginReloadAssembly (113ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (946ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (379ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (324ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (221ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2598 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.3 MB.
-System memory in use after: 116.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3155.
-Total: 2.949200 ms (FindLiveObjects: 0.234000 ms CreateObjectMapping: 0.115200 ms MarkObjects: 2.579700 ms  DeleteObjects: 0.019200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 77.728303 seconds.
-  path: Assets/Biomes/Prefabs
-  artifactKey: Guid(1d8fd59eec7c75d4496cd98d5d90a58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Prefabs using Guid(1d8fd59eec7c75d4496cd98d5d90a58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6f0dae17098712dcb2c2fb9ea712cc') in 0.009720 seconds 
-  Import took 0.015341 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003235 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.123 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1124ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (958ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (322ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (217ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (143ms)
+				BeforeProcessingInitializeOnLoad (219ms)
+				ProcessInitializeOnLoadAttributes (475ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 2.64 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2598 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.3 MB.
-System memory in use after: 116.5 MB.
+Unloading 2974 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.8 MB.
+System memory in use after: 135.0 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3157.
-Total: 2.977700 ms (FindLiveObjects: 0.300900 ms CreateObjectMapping: 0.136800 ms MarkObjects: 2.515700 ms  DeleteObjects: 0.023400 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3402.
+Total: 13.638000 ms (FindLiveObjects: 1.055800 ms CreateObjectMapping: 0.519400 ms MarkObjects: 11.831000 ms  DeleteObjects: 0.228300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -798,593 +196,427 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.472997 seconds.
-  path: Assets/Materials/Skybox_Mat.mat
-  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d54ab3375f41efad00566dcae11def2') in 0.442049 seconds 
-  Import took 0.446781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.188108 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1fccef896d48891410691dfde716e5') in 0.006896 seconds 
-  Import took 0.010651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.537850 seconds.
-  path: Assets/Materials/TempMaterials
-  artifactKey: Guid(dadcd8dc1d9497646b2e614c4f1c4e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TempMaterials using Guid(dadcd8dc1d9497646b2e614c4f1c4e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa75b4ac4e131b8433edce1f5b795f1') in 0.010400 seconds 
-  Import took 0.015484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.148774 seconds.
-  path: Assets/Materials/TempMaterials/TempDesert.mat
-  artifactKey: Guid(c919e4557cb29a049990b7e37bcb4e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TempMaterials/TempDesert.mat using Guid(c919e4557cb29a049990b7e37bcb4e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf01d54b38428d27fad22e19c1fc8bdb') in 0.021832 seconds 
-  Import took 0.026292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.296565 seconds.
-  path: Assets/Biomes/Prefabs/DesertBiomeBlock.prefab
-  artifactKey: Guid(cc593c3081b1b50468e229666a4c2742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Prefabs/DesertBiomeBlock.prefab using Guid(cc593c3081b1b50468e229666a4c2742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f400621c4863647c42ac07ca68713d') in 0.045924 seconds 
-  Import took 0.050529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.535835 seconds.
-  path: Assets/Materials/TempMaterials/TempDesert.mat
-  artifactKey: Guid(c919e4557cb29a049990b7e37bcb4e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TempMaterials/TempDesert.mat using Guid(c919e4557cb29a049990b7e37bcb4e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17535b235470ee4ef1c6851cf6826ee') in 0.016755 seconds 
-  Import took 0.021183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.861190 seconds.
-  path: Assets/Materials/TempMaterials/TempOcean.mat
-  artifactKey: Guid(d6529522c3a82924dbef1bc3877dc851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TempMaterials/TempOcean.mat using Guid(d6529522c3a82924dbef1bc3877dc851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6102d90fe560603076926efd857880') in 0.015246 seconds 
-  Import took 0.020432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.862933 seconds.
-  path: Assets/Materials/TempMaterials/TempOcean.mat
-  artifactKey: Guid(d6529522c3a82924dbef1bc3877dc851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TempMaterials/TempOcean.mat using Guid(d6529522c3a82924dbef1bc3877dc851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c47a28c78a96a8c8803baaea3bbad42') in 0.011484 seconds 
-  Import took 0.017557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.596788 seconds.
-  path: Assets/Biomes/Prefabs/OceanBiomeBlock.prefab
-  artifactKey: Guid(17e4c7d742f3cc2459d9dcab499a2da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Prefabs/OceanBiomeBlock.prefab using Guid(17e4c7d742f3cc2459d9dcab499a2da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8321eeaf6529535c43359ea09a928f32') in 0.015340 seconds 
-  Import took 0.019811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 379.927289 seconds.
-  path: Assets/Biomes/Prefabs/OceanBiomeBlock Variant.prefab
-  artifactKey: Guid(cab31de3d51d36f44b1f77cc2a29b635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Prefabs/OceanBiomeBlock Variant.prefab using Guid(cab31de3d51d36f44b1f77cc2a29b635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbdddba1162b60df54039cd383509c99') in 0.019902 seconds 
-  Import took 0.025840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.144199 seconds.
-  path: Assets/Presets/AudioCompressedInMemory.preset
-  artifactKey: Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets/AudioCompressedInMemory.preset using Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4de02398cfe62c06251b0f50233ebf') in 0.012055 seconds 
-  Import took 0.016714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Presets/AudioStreaming.preset
-  artifactKey: Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets/AudioStreaming.preset using Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9982fbd60bc57b892b2c54d34a0163c0') in 0.013611 seconds 
-  Import took 0.018638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Presets/NormalTexture.preset
-  artifactKey: Guid(14a57cf3b9fa1c74b884aa7e0dcf1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets/NormalTexture.preset using Guid(14a57cf3b9fa1c74b884aa7e0dcf1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c195482fc53bc4f53f643643f636469') in 0.087952 seconds 
-  Import took 0.093727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Presets/UtilityTexture.preset
-  artifactKey: Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets/UtilityTexture.preset using Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9c1faeeb59b745cafa0ae79c874a42') in 0.011779 seconds 
-  Import took 0.015722 seconds .
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3b9f17ff219922461d349995487975') in 0.210301 seconds 
+  Import took 0.226449 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003304 seconds.
+Registered in 0.023221 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.24 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Could not locate ProBuilder/Icons folder.  The ProBuilder folder may be moved, but the contents of this folder must remain unmodified relative to ProBuilder root.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProBuilder2.EditorCommon.pb_IconUtility:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Could not locate ProGrids/GUI/ProGridsToggles folder.  The ProGrids folder may be moved, but the contents of ProGrids must remain unmodified.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:FindFolder (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:47)
+ProGrids.pg_IconUtility:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:20)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:549)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 47)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_Vis_On.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:549)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_Vis_Off.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:552)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_Snap_On.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:555)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_Snap_Off.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:558)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PushToGrid_Normal.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:561)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_Lock_On.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:564)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_Lock_Off.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:567)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_AngleVis_On.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:570)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_AngleVis_Off.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:573)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_X_On.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:576)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_X_Off.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:579)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_Y_On.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:582)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_Y_Off.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:585)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_Z_On.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:588)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_Z_Off.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:591)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_3D_On.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:594)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_GUI_PGrid_3D_Off.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:597)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_MenuExtendo_Open.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:600)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+ProGrids failed to locate menu image: ProGrids2_MenuExtendo_Close.png.
+This can happen if the GUI folder is moved or deleted.  Deleting and re-importing ProGrids will fix this error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ProGrids.pg_IconUtility:LoadIcon (string) (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs:58)
+ProGrids.pg_Editor:LoadGUIResources () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:603)
+ProGrids.pg_Editor:OnEnable () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:478)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<ProGrids.pg_Editor> ()
+ProGrids.pg_Editor:InitProGrids () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:316)
+ProGrids.pg_Initializer:.cctor () (at Assets/Little Lands Biome Pack/ProCore/ProGrids/Editor/pg_Editor.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Little Lands Biome Pack/ProCore/ProGrids/Classes/pg_IconUtility.cs Line: 58)
+
+Curl error 6: Could not resolve host: procore3d.github.io
 Mono: successfully reloaded assembly
-- Completed reload, in  1.151 seconds
+- Completed reload, in  2.722 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1151ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (2723ms)
+		BeginReloadAssembly (335ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (961ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2241ms)
+			LoadAssemblies (304ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (369ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (299ms)
+			SetupTypeCache (776ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (847ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (198ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (620ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2598 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.8 MB.
-System memory in use after: 122.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3238.
-Total: 3.071900 ms (FindLiveObjects: 0.243800 ms CreateObjectMapping: 0.111600 ms MarkObjects: 2.695200 ms  DeleteObjects: 0.019900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003148 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.123 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1123ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (961ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (382ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (300ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (196ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2598 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.8 MB.
-System memory in use after: 122.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3240.
-Total: 2.826300 ms (FindLiveObjects: 0.250200 ms CreateObjectMapping: 0.113900 ms MarkObjects: 2.446300 ms  DeleteObjects: 0.015000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003162 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.020 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1020ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (847ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (282ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (295ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (194ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2598 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.9 MB.
-System memory in use after: 122.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3242.
-Total: 2.997800 ms (FindLiveObjects: 0.269300 ms CreateObjectMapping: 0.124900 ms MarkObjects: 2.585200 ms  DeleteObjects: 0.017500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003142 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.011 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1011ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (836ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (303ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2598 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.9 MB.
-System memory in use after: 122.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3244.
-Total: 3.239200 ms (FindLiveObjects: 0.272300 ms CreateObjectMapping: 0.122000 ms MarkObjects: 2.824800 ms  DeleteObjects: 0.019000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 468.718792 seconds.
-  path: Assets/Biomes/Prefabs/DesertBiomeBlock (OG).prefab
-  artifactKey: Guid(cc593c3081b1b50468e229666a4c2742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Prefabs/DesertBiomeBlock (OG).prefab using Guid(cc593c3081b1b50468e229666a4c2742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5969c9037ccc2bb2a2de70b0f12490ae') in 0.195499 seconds 
-  Import took 0.200187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Biomes/Prefabs/OceanBiomeBlock Variant.prefab
-  artifactKey: Guid(cab31de3d51d36f44b1f77cc2a29b635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Prefabs/OceanBiomeBlock Variant.prefab using Guid(cab31de3d51d36f44b1f77cc2a29b635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15d39517832bc274a053553bb913968') in 0.017239 seconds 
-  Import took 0.023338 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003195 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.130 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1130ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (955ms)
-			LoadAssemblies (176ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (298ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (294ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (196ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2598 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 122.0 MB.
-System memory in use after: 122.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3282.
-Total: 2.930600 ms (FindLiveObjects: 0.272700 ms CreateObjectMapping: 0.118200 ms MarkObjects: 2.522200 ms  DeleteObjects: 0.016500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003144 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.067 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1067ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (862ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (305ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (201ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2598 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 122.0 MB.
-System memory in use after: 122.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3284.
-Total: 2.901400 ms (FindLiveObjects: 0.249100 ms CreateObjectMapping: 0.114600 ms MarkObjects: 2.521900 ms  DeleteObjects: 0.015100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003175 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.206 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1206ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1027ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (374ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (125ms)
-				ProcessInitializeOnLoadAttributes (234ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2598 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 122.0 MB.
-System memory in use after: 122.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3286.
-Total: 3.183800 ms (FindLiveObjects: 0.246100 ms CreateObjectMapping: 0.113600 ms MarkObjects: 2.807100 ms  DeleteObjects: 0.016100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004178 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.280 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1280ms)
-		BeginReloadAssembly (103ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1121ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (422ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (312ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.3 MB.
-System memory in use after: 120.5 MB.
+Unloading 2934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.8 MB.
+System memory in use after: 126.8 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3288.
-Total: 3.547500 ms (FindLiveObjects: 0.330100 ms CreateObjectMapping: 0.148500 ms MarkObjects: 3.046800 ms  DeleteObjects: 0.020500 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3537.
+Total: 6.595200 ms (FindLiveObjects: 0.456600 ms CreateObjectMapping: 0.296100 ms MarkObjects: 5.516600 ms  DeleteObjects: 0.323600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1398,354 +630,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.1 MB.
-System memory in use after: 69.4 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3288.
-Total: 6.500900 ms (FindLiveObjects: 0.470000 ms CreateObjectMapping: 0.211100 ms MarkObjects: 5.791000 ms  DeleteObjects: 0.027600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1064.589402 seconds.
-  path: Assets/Biomes/Waterfall.asset
-  artifactKey: Guid(b15f28e55a61dcd419c4c7deb4a5fe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Waterfall.asset using Guid(b15f28e55a61dcd419c4c7deb4a5fe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca216e27b69faa5b6c0fd7d85b297810') in 0.049127 seconds 
-  Import took 0.055021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.073057 seconds.
-  path: Assets/Biomes/Lake.asset
-  artifactKey: Guid(8d7b992fa5ced9d4f90d4aabd3e09b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Lake.asset using Guid(8d7b992fa5ced9d4f90d4aabd3e09b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128d763ccec2f9492a1dbd264bfc84f0') in 0.008665 seconds 
-  Import took 0.015242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.860732 seconds.
-  path: Assets/Biomes/Mountain.asset
-  artifactKey: Guid(bdcc8cad04662534e8b998386310d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Mountain.asset using Guid(bdcc8cad04662534e8b998386310d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e264f716be05acf25375f6cac727407') in 0.010841 seconds 
-  Import took 0.018961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.603457 seconds.
-  path: Assets/Biomes/Grassland.asset
-  artifactKey: Guid(93484d4b87cf24d4fa3804e8e8649d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Grassland.asset using Guid(93484d4b87cf24d4fa3804e8e8649d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3bd4bc525879a7e30b5597920727e7') in 0.009879 seconds 
-  Import took 0.015524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.300908 seconds.
-  path: Assets/Biomes/Hillside.asset
-  artifactKey: Guid(71e6504366d366047865f5d69aec3cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Hillside.asset using Guid(71e6504366d366047865f5d69aec3cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e6df76ac2ea6d80a069a8951a6bc54') in 0.007981 seconds 
-  Import took 0.014317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.680156 seconds.
-  path: Assets/Biomes/Cliffs.asset
-  artifactKey: Guid(32e28cba1bb42c347a3a2da1052bd4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Cliffs.asset using Guid(32e28cba1bb42c347a3a2da1052bd4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28152645de4ad5a93b0f719f36d7696a') in 0.008515 seconds 
-  Import took 0.014001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.597998 seconds.
-  path: Assets/Biomes/Island.asset
-  artifactKey: Guid(03cfbdb2602754a4496c96a8e970e205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Island.asset using Guid(03cfbdb2602754a4496c96a8e970e205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177882fb16654f9040f1da9dbd321ec5') in 0.008616 seconds 
-  Import took 0.015101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.178811 seconds.
-  path: Assets/Biomes/Volcano.asset
-  artifactKey: Guid(13b2ba56bf10d884aa532844047e66f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Volcano.asset using Guid(13b2ba56bf10d884aa532844047e66f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e625f3d2afc91c5604fedb3ad1c9f3') in 0.008561 seconds 
-  Import took 0.016358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.436220 seconds.
-  path: Assets/Biomes/Jungle.asset
-  artifactKey: Guid(8bf511330e446fc47b540580746a2654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Jungle.asset using Guid(8bf511330e446fc47b540580746a2654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf49470a1f5490d227ff16741276323e') in 0.008090 seconds 
-  Import took 0.012935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.352028 seconds.
-  path: Assets/Biomes/Swamp.asset
-  artifactKey: Guid(c5c4d0ac34e82c1429343bff37489377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Swamp.asset using Guid(c5c4d0ac34e82c1429343bff37489377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b7ed103355c549357df15433aecf75') in 0.012058 seconds 
-  Import took 0.019885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.193531 seconds.
-  path: Assets/Biomes/Pyramid.asset
-  artifactKey: Guid(8031d9705d3c9534c92e5135d5eef19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Pyramid.asset using Guid(8031d9705d3c9534c92e5135d5eef19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db70908f635239310385274426f4d06c') in 0.011932 seconds 
-  Import took 0.019203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.832419 seconds.
-  path: Assets/Biomes/Ice Mountain.asset
-  artifactKey: Guid(fb97dee669c9b25428c44268a74f7b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Ice Mountain.asset using Guid(fb97dee669c9b25428c44268a74f7b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275cf669f61d10607eb9d38893730e4c') in 0.009482 seconds 
-  Import took 0.016429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.106394 seconds.
-  path: Assets/Biomes/Ice Forest.asset
-  artifactKey: Guid(2a22ecd72d982fb4393263b870abd722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Ice Forest.asset using Guid(2a22ecd72d982fb4393263b870abd722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f1f77f602f165870edde363b3d582d') in 0.010212 seconds 
-  Import took 0.015705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.284092 seconds.
-  path: Assets/Biomes/Ice Waterfall.asset
-  artifactKey: Guid(bae45e094dafd224eac4de11ce37fa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Ice Waterfall.asset using Guid(bae45e094dafd224eac4de11ce37fa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b78381d4f6a9a8673bcfbb40b0881f') in 0.012170 seconds 
-  Import took 0.018784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.876975 seconds.
-  path: Assets/Biomes/Arctic.asset
-  artifactKey: Guid(45885fa8a680da44a8246281cc0e301f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Arctic.asset using Guid(45885fa8a680da44a8246281cc0e301f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e89f56079c7448aae023e9569180d9') in 0.008223 seconds 
-  Import took 0.015238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.492144 seconds.
-  path: Assets/Biomes/Savanna.asset
-  artifactKey: Guid(5714b20146ff7fa4f8439a1528f24c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Savanna.asset using Guid(5714b20146ff7fa4f8439a1528f24c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1066f2f50138bd744dcc43c4b87736ea') in 0.011780 seconds 
-  Import took 0.018832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1662.712084 seconds.
-  path: Assets/Biomes/Iceberg.asset
-  artifactKey: Guid(a92a03e6f4ec0af4a9a45b9f0ad11b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Iceberg.asset using Guid(a92a03e6f4ec0af4a9a45b9f0ad11b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e312d54da5ee50a157c9cb98259d66dc') in 0.010872 seconds 
-  Import took 0.017294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 216.107109 seconds.
-  path: Assets/Biomes/Ice Lake.asset
-  artifactKey: Guid(7ee400a52dcd10f4b8ec7d4126754bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Ice Lake.asset using Guid(7ee400a52dcd10f4b8ec7d4126754bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb0e624869fa3fac3e6113b3dfaaa19') in 0.010254 seconds 
-  Import took 0.017593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.838115 seconds.
-  path: Assets/Biomes/Arctic.asset
-  artifactKey: Guid(45885fa8a680da44a8246281cc0e301f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Arctic.asset using Guid(45885fa8a680da44a8246281cc0e301f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfdeaf5d57ac003ea583183b8bdfe6a') in 0.017119 seconds 
-  Import took 0.021486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001849 seconds.
-  path: Assets/Biomes/Ocean.asset
-  artifactKey: Guid(8f87b15a8b53a844cb9cabcbc56ceb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Ocean.asset using Guid(8f87b15a8b53a844cb9cabcbc56ceb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c4e59f27d35c373f6f9d8824a4b03b') in 0.008167 seconds 
-  Import took 0.013831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 270.411880 seconds.
-  path: Assets/ExampleAssets/Models/brush_low.fbx
-  artifactKey: Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/brush_low.fbx using Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63620a007dd9fe2e65d60fdf9aa5fa41') in 2.183337 seconds 
-  Import took 2.188372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/ExampleAssets/Models/hammer_low.fbx
-  artifactKey: Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/hammer_low.fbx using Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0098d2334523c92cc3d702ca4ee63b2') in 0.040773 seconds 
-  Import took 0.045146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/ExampleAssets/Models/safetygoggles_low.fbx
-  artifactKey: Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/safetygoggles_low.fbx using Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae8946a3f99a923f7803907a8c27ead') in 0.512849 seconds 
-  Import took 0.519380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/ExampleAssets/Prefabs/Workshop Set.prefab
-  artifactKey: Guid(a87f0180d46fd334b9025d0314a0dc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Prefabs/Workshop Set.prefab using Guid(a87f0180d46fd334b9025d0314a0dc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1a72696c319eb08304e2a15d71b105') in 1.197806 seconds 
-  Import took 1.202052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/ExampleAssets/Prefabs/Paint Supplies.prefab
-  artifactKey: Guid(283e6530a665e4513959d1cd4883682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Prefabs/Paint Supplies.prefab using Guid(283e6530a665e4513959d1cd4883682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12887721a8eec918a51daf5d398a0809') in 1.215768 seconds 
-  Import took 1.219492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/ExampleAssets/Models/Stud.fbx
-  artifactKey: Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/Stud.fbx using Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb17f227481600cbf7b05869a1581d00') in 0.053870 seconds 
-  Import took 0.058426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/ExampleAssets/Models/jigsaw_low.fbx
-  artifactKey: Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/jigsaw_low.fbx using Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53f040b600b39887964ede166fc9514') in 0.038149 seconds 
-  Import took 0.042418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/ExampleAssets/Models/magneticlevel_low.fbx
-  artifactKey: Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/magneticlevel_low.fbx using Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7daa638a4f61892d85b4e50fee1e849') in 0.057570 seconds 
-  Import took 0.061861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/ExampleAssets/Prefabs/Workbench_LOD0.prefab
-  artifactKey: Guid(c0adcaeba3022437293536832628fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Prefabs/Workbench_LOD0.prefab using Guid(c0adcaeba3022437293536832628fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9de4f0dd210bafe54835f388b498273') in 0.059235 seconds 
-  Import took 0.063333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/ExampleAssets/Prefabs/Workbench.prefab
-  artifactKey: Guid(8850d132797ff49298ba781e8e1c9bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Prefabs/Workbench.prefab using Guid(8850d132797ff49298ba781e8e1c9bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505bbb7a0aa93368fff5244fac9f72af') in 0.134229 seconds 
-  Import took 0.138531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/ExampleAssets/Models/paintbucket_low.fbx
-  artifactKey: Guid(b451a052397f03c4f8a04d915d1c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/paintbucket_low.fbx using Guid(b451a052397f03c4f8a04d915d1c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb120b6ed1c9690f3c18633a9ae2dd0') in 0.074890 seconds 
-  Import took 0.079311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/ExampleAssets/Prefabs/Construction Light Low.prefab
-  artifactKey: Guid(bf0a225a9ff184f2789f3036faaa9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Prefabs/Construction Light Low.prefab using Guid(bf0a225a9ff184f2789f3036faaa9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f58ff27ec13109e29ca419c47d0c13') in 0.624216 seconds 
-  Import took 0.629398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/ExampleAssets/Models/Workshop_Set.fbx
-  artifactKey: Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/Workshop_Set.fbx using Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07793a4d2b03e0e09167bfceb24a94b') in 0.099005 seconds 
-  Import took 0.103643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/ExampleAssets/Models/ConstructionLight_Low.fbx
-  artifactKey: Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/ConstructionLight_Low.fbx using Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3028224e6409f1dfa8977a546b05e9a') in 0.066007 seconds 
-  Import took 0.069837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/ExampleAssets/Models/Workbench.fbx
-  artifactKey: Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/Workbench.fbx using Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9763579b58169ef327fd8d483de42484') in 0.093794 seconds 
-  Import took 0.097907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/ExampleAssets/Prefabs/Props.prefab
-  artifactKey: Guid(85dfab9623c67784fa7894de63cd1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Prefabs/Props.prefab using Guid(85dfab9623c67784fa7894de63cd1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3faed89da01859078246b9f9c0e1837') in 0.136224 seconds 
-  Import took 0.141213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/ExampleAssets/Prefabs/Workbench_LOD1.prefab
-  artifactKey: Guid(38d5ecfa2b93c4095b4cc5d4a590e676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Prefabs/Workbench_LOD1.prefab using Guid(38d5ecfa2b93c4095b4cc5d4a590e676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77741510df058aa89c6997181f3a24ce') in 0.027977 seconds 
-  Import took 0.032632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/ExampleAssets/Models/Workbench_Low.fbx
-  artifactKey: Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/Workbench_Low.fbx using Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f99d08570cdde3afaf55ae1a8262d9b') in 0.097519 seconds 
-  Import took 0.102617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/ExampleAssets/Models/safetyhat_low.fbx
-  artifactKey: Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/safetyhat_low.fbx using Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5935c6193b6a59e066fce2003b46692c') in 0.024573 seconds 
-  Import took 0.029377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/ExampleAssets/Models/small_plane.fbx
-  artifactKey: Guid(aeaee610429f51f44981e141eb2a3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/small_plane.fbx using Guid(aeaee610429f51f44981e141eb2a3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21ffefb080f2bc5460e0e031b036c2e') in 0.028158 seconds 
-  Import took 0.032846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 382.699872 seconds.
-  path: Assets/Biomes/Desert.asset
-  artifactKey: Guid(d9e656d7949965e4cbbc6c461c9fc8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Biomes/Desert.asset using Guid(d9e656d7949965e4cbbc6c461c9fc8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ff6257a6c939ad6520ee59ad0313f7') in 0.016790 seconds 
-  Import took 0.029403 seconds .
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
