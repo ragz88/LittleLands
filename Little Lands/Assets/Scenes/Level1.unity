@@ -123,6 +123,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &78638581
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2193149610417719756, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_Name
+      value: GrasslandBiomeBlock Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
 --- !u!1 &762913484
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,7 +258,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762913484}
   m_LocalRotation: {x: 0.20994739, y: -0.375081, z: 0.087629214, w: 0.89864194}
-  m_LocalPosition: {x: 5.972, y: 4.9, z: -4.192}
+  m_LocalPosition: {x: 6.283, y: 4.9, z: -4.255}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -239,6 +296,63 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!1001 &899446525
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2193149610417719756, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_Name
+      value: GrasslandBiomeBlock Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038555451022461418, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e17e0d2538f9ff1499ccf9e77c68a0c8, type: 3}
 --- !u!1001 &1003180039
 PrefabInstance:
   m_ObjectHideFlags: 0

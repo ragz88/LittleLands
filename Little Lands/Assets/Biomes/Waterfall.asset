@@ -13,4 +13,31 @@ MonoBehaviour:
   m_Name: Waterfall
   m_EditorClassIdentifier: 
   biomeBody: {fileID: 0}
-  fusions: []
+  fusions:
+  - fusionPartner: {fileID: 11400000, guid: 03cfbdb2602754a4496c96a8e970e205, type: 2}
+    result: {fileID: 11400000, guid: 32e28cba1bb42c347a3a2da1052bd4e0, type: 2}
+    effects: {fileID: 0}
+  - fusionPartner: {fileID: 11400000, guid: 776cefee2590bdc42ab63e410b45545c, type: 2}
+    result: {fileID: 11400000, guid: 32e28cba1bb42c347a3a2da1052bd4e0, type: 2}
+    effects: {fileID: 0}
+  - fusionPartner: {fileID: 11400000, guid: 45885fa8a680da44a8246281cc0e301f, type: 2}
+    result: {fileID: 11400000, guid: bae45e094dafd224eac4de11ce37fa21, type: 2}
+    effects: {fileID: 0}
+  - fusionPartner: {fileID: 11400000, guid: 93484d4b87cf24d4fa3804e8e8649d04, type: 2}
+    result: {fileID: 11400000, guid: 8d7b992fa5ced9d4f90d4aabd3e09b5f, type: 2}
+    effects: {fileID: 0}
+  - fusionPartner: {fileID: 11400000, guid: a92a03e6f4ec0af4a9a45b9f0ad11b29, type: 2}
+    result: {fileID: 11400000, guid: bae45e094dafd224eac4de11ce37fa21, type: 2}
+    effects: {fileID: 0}
+  - fusionPartner: {fileID: 11400000, guid: d9e656d7949965e4cbbc6c461c9fc8ff, type: 2}
+    result: {fileID: 11400000, guid: 32e28cba1bb42c347a3a2da1052bd4e0, type: 2}
+    effects: {fileID: 0}
+  - fusionPartner: {fileID: 11400000, guid: 8bf511330e446fc47b540580746a2654, type: 2}
+    result: {fileID: 11400000, guid: 71e6504366d366047865f5d69aec3cfa, type: 2}
+    effects: {fileID: 0}
+  - fusionPartner: {fileID: 11400000, guid: 2a22ecd72d982fb4393263b870abd722, type: 2}
+    result: {fileID: 11400000, guid: bae45e094dafd224eac4de11ce37fa21, type: 2}
+    effects: {fileID: 0}
+  - fusionPartner: {fileID: 11400000, guid: 7ee400a52dcd10f4b8ec7d4126754bae, type: 2}
+    result: {fileID: 11400000, guid: bae45e094dafd224eac4de11ce37fa21, type: 2}
+    effects: {fileID: 0}
