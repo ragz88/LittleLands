@@ -673,3 +673,338 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.47 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.9 MB.
+System memory in use after: 80.2 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3557.
+Total: 6.009500 ms (FindLiveObjects: 0.379600 ms CreateObjectMapping: 0.200900 ms MarkObjects: 4.336100 ms  DeleteObjects: 1.091200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4490.190818 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs
+  artifactKey: Guid(2ce605e7261d84c4aa287a040581fc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs using Guid(2ce605e7261d84c4aa287a040581fc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbc1631f246bcaf37cc0e19ff8e9581') in 0.002464 seconds 
+  Import took 0.008885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.199829 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes
+  artifactKey: Guid(a1351eaec4b9f4844bc2f3f2959b0ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes using Guid(a1351eaec4b9f4844bc2f3f2959b0ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2be0682d9790066c340c413b1c9147') in 0.002125 seconds 
+  Import took 0.008376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093062 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Arctic.prefab
+  artifactKey: Guid(e6dc85929ed9b6640a23b4e29057f3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Arctic.prefab using Guid(e6dc85929ed9b6640a23b4e29057f3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa619291ecc74c53b2d4d51f2ec1965a') in 0.520040 seconds 
+  Import took 0.527307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Savanna.prefab
+  artifactKey: Guid(31576e577807843479ac5012234402a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Savanna.prefab using Guid(31576e577807843479ac5012234402a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d808b1460fd62fe9e969415b7cc8d05') in 0.171126 seconds 
+  Import took 0.177764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Hillside.prefab
+  artifactKey: Guid(b7861fe0a8208754fa403e10e339aaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Hillside.prefab using Guid(b7861fe0a8208754fa403e10e339aaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e0a26252b83895606da063bace7b76') in 0.149882 seconds 
+  Import took 0.156684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Ocean.prefab
+  artifactKey: Guid(1a2beeb35f184b846b660415eb93cf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Ocean.prefab using Guid(1a2beeb35f184b846b660415eb93cf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab04dd601b5f0a7ebee0234b15c05b4') in 0.181382 seconds 
+  Import took 0.188152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/volcano.prefab
+  artifactKey: Guid(b70de00605142da4da5825efefd48ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/volcano.prefab using Guid(b70de00605142da4da5825efefd48ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0245f677a55fbe8aac21c3b6ce86ab1') in 0.164494 seconds 
+  Import took 0.171231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Island.prefab
+  artifactKey: Guid(d40a2a484e0c12a418536d5cdac7c374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Island.prefab using Guid(d40a2a484e0c12a418536d5cdac7c374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad09aec01e5e22fe5f840ec437c1f83') in 0.159420 seconds 
+  Import took 0.165896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Beach.prefab
+  artifactKey: Guid(dd2bfdb8a04cf6e45966724bd04438ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Beach.prefab using Guid(dd2bfdb8a04cf6e45966724bd04438ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cb28d53f17ebeebe9fa29417198a0e') in 0.158288 seconds 
+  Import took 0.164859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Frozen Mountain .prefab
+  artifactKey: Guid(ad727c5fa185bf6489d374f6991a9323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Frozen Mountain .prefab using Guid(ad727c5fa185bf6489d374f6991a9323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6535a3e0ac0745206d8ecc752d64d6c') in 0.144578 seconds 
+  Import took 0.151007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Frozen Waterfall .prefab
+  artifactKey: Guid(e97cbc383a1f2d54b85d86a07d604b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Frozen Waterfall .prefab using Guid(e97cbc383a1f2d54b85d86a07d604b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea138a083598a2c8ebd0d6a3b085cb80') in 0.160336 seconds 
+  Import took 0.167151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Mountain.prefab
+  artifactKey: Guid(f4ab669e7272c314497c822d7eebfa4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Mountain.prefab using Guid(f4ab669e7272c314497c822d7eebfa4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b1fa9ce022324fcb1f9a73437ab3fa') in 0.145959 seconds 
+  Import took 0.152361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Swamp.prefab
+  artifactKey: Guid(9685b48e848948e40a0453756b238628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Swamp.prefab using Guid(9685b48e848948e40a0453756b238628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c833491625bbf7263174177b20a127') in 0.176245 seconds 
+  Import took 0.183023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Desert.prefab
+  artifactKey: Guid(8bb4bf90bfa8f5d4e9ac2fa88d3e2d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Desert.prefab using Guid(8bb4bf90bfa8f5d4e9ac2fa88d3e2d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b308f10c0caecb6abf1e68378951ee4') in 0.141313 seconds 
+  Import took 0.147775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Grassland.prefab
+  artifactKey: Guid(7e3b030e364b4e346a8be93c408b4acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Grassland.prefab using Guid(7e3b030e364b4e346a8be93c408b4acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94871e09db58abab77c89dbe035be3b') in 0.145890 seconds 
+  Import took 0.152702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Ice Forest.prefab
+  artifactKey: Guid(b47e18c774877eb498659fd8b7585e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Ice Forest.prefab using Guid(b47e18c774877eb498659fd8b7585e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e83f02d9232d204d897c8f9cc331ea') in 0.146182 seconds 
+  Import took 0.153038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Cliff.prefab
+  artifactKey: Guid(04eac0c8d70a03040ac34c7f7e1aa29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Cliff.prefab using Guid(04eac0c8d70a03040ac34c7f7e1aa29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbc1a05a1864cfcdc22b38af2ec957d') in 0.161582 seconds 
+  Import took 0.168361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Jungle.prefab
+  artifactKey: Guid(165a9d1fc63a24547a1ef6337ef54807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Jungle.prefab using Guid(165a9d1fc63a24547a1ef6337ef54807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b01c59e46337d695c03a3d42f2d4b0') in 0.154690 seconds 
+  Import took 0.161707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Frozon Lake .prefab
+  artifactKey: Guid(257152498a9a8fc49af19069ac43ed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Frozon Lake .prefab using Guid(257152498a9a8fc49af19069ac43ed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ddeae4da52965fe5ab3b7c7dc5f4ec') in 0.164327 seconds 
+  Import took 0.171130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Waterfall.prefab
+  artifactKey: Guid(d891861825b2d164a8ebe16c8b2e2acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Waterfall.prefab using Guid(d891861825b2d164a8ebe16c8b2e2acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e4b369a78d4b7c5f202dc2bd4f64c4') in 0.174528 seconds 
+  Import took 0.181634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Pyramid.prefab
+  artifactKey: Guid(30d43768b8862a045b8035b3ca761789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Pyramid.prefab using Guid(30d43768b8862a045b8035b3ca761789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42bc85a6ce30acd121f71ec7885e2dd') in 0.138634 seconds 
+  Import took 0.145642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Iceberg.prefab
+  artifactKey: Guid(b7a15692f0d472f4c8ef305af47a0349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Iceberg.prefab using Guid(b7a15692f0d472f4c8ef305af47a0349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91693de271794c3c063c37b21666d3e5') in 0.171432 seconds 
+  Import took 0.180936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Little Lands Biome Pack/Prefabs/Biomes/Lake.prefab
+  artifactKey: Guid(3ed1fb1685d58b049a0c1178e0c8c6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little Lands Biome Pack/Prefabs/Biomes/Lake.prefab using Guid(3ed1fb1685d58b049a0c1178e0c8c6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bfddb22d67e32fb73828f6a57bd264') in 0.208589 seconds 
+  Import took 0.215408 seconds .
+
+========================================================================
+Received Prepare
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitFog.InitMaterial () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:128 
+  at FlatKit.FlatKitFog.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:94 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnValidate () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:39 
+
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitOutline.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Outline\FlatKitOutline.cs:89 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnValidate () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:39 
+
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitOutline.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Outline\FlatKitOutline.cs:89 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnValidate () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:39 
+
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitFog.InitMaterial () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:128 
+  at FlatKit.FlatKitFog.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:94 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnValidate () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:39 
+
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitFog.InitMaterial () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:128 
+  at FlatKit.FlatKitFog.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:94 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnValidate () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:39 
+
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitOutline.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Outline\FlatKitOutline.cs:89 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnValidate () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:39 
+
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitFog.InitMaterial () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:128 
+  at FlatKit.FlatKitFog.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:94 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnValidate () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:39 
+
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitFog.InitMaterial () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:128 
+  at FlatKit.FlatKitFog.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:94 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnEnable () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:34 
+
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitOutline.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Outline\FlatKitOutline.cs:89 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnEnable () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:34 
+
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitOutline.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Outline\FlatKitOutline.cs:89 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnEnable () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:34 
+
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitFog.InitMaterial () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:128 
+  at FlatKit.FlatKitFog.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:94 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnEnable () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:34 
+
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitFog.InitMaterial () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:128 
+  at FlatKit.FlatKitFog.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:94 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnEnable () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:34 
+
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitOutline.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Outline\FlatKitOutline.cs:89 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnEnable () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:34 
+
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+  at FlatKit.ShaderIncludeUtilities.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs:18 
+  at FlatKit.FlatKitFog.InitMaterial () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:128 
+  at FlatKit.FlatKitFog.Create () [0x00019] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Assets\Little Lands Biome Pack\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs:94 
+  at UnityEngine.Rendering.Universal.ScriptableRendererFeature.OnEnable () [0x00000] in C:\Users\Rodwi\Documents\GitHub\LittleLands\Little Lands\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0\Runtime\ScriptableRendererFeature.cs:34 
+
+Refreshing native plugins compatible for Editor in 8.68 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 83.7 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3657.
+Total: 4.572000 ms (FindLiveObjects: 0.323500 ms CreateObjectMapping: 0.166900 ms MarkObjects: 3.464800 ms  DeleteObjects: 0.615800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

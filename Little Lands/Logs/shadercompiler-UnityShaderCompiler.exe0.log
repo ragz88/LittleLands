@@ -39,3 +39,4 @@ Cmd: preprocess
   error: 2 plat 25 at (242): Couldn't open include file 'LibraryUrp/StylizedInput.hlsl'.
  ok=0 outsize=8299
 
+Cmd: shutdown
