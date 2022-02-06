@@ -69,7 +69,7 @@ public class GridController : MonoBehaviour
 
                 RaycastHit rayHit;
 
-                if (Physics.Raycast(tempTrans.transform.position + new Vector3(0, 2, 0), Vector3.down, out rayHit, 3, populatingRayLayerMask))
+                if (Physics.Raycast(tempTrans.transform.position + new Vector3(0, 45, 0), Vector3.down, out rayHit, 80, populatingRayLayerMask))
                 {
                     gridPositions[i, j].biomeBlock = rayHit.collider.gameObject.GetComponent<BiomeBlock>();
                     gridPositions[i, j].biomeBlock.myGridPosX = i;

@@ -249,7 +249,7 @@ public class BiomeBlock : MonoBehaviour
 
             if (midLegalMove)
             {
-                if (Vector3.Distance(transform.position, GridController.gridInstance.gridPositions[moveGridPosX, moveGridPosY].trans.position) > 0.05f)
+                if (Vector3.Distance(transform.position, GridController.gridInstance.gridPositions[moveGridPosX, moveGridPosY].trans.position) > 2f)
                 {
                     transform.position = Vector3.Lerp(transform.position, GridController.gridInstance.gridPositions[moveGridPosX, moveGridPosY].trans.position,
                         onLegalMoveSpeed * Time.deltaTime);
@@ -308,7 +308,7 @@ public class BiomeBlock : MonoBehaviour
             {
                 if (transform.position != GridController.gridInstance.gridPositions[myGridPosX, myGridPosY].trans.position)
                 {
-                    transform.position = Vector3.MoveTowards(transform.position, GridController.gridInstance.gridPositions[myGridPosX, myGridPosY].trans.position,
+                    transform.position = Vector3.Lerp(transform.position, GridController.gridInstance.gridPositions[myGridPosX, myGridPosY].trans.position,
                         onReleaseMoveSpeed * Time.deltaTime);
                 }
             }
